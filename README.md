@@ -1,4 +1,4 @@
-# NegotiateAI — AI-Powered Salary Negotiation Coach
+# NegotiateAI: AI-Powered Salary Negotiation Coach
 
 > Every year, millions in potential earnings are left on the table because people don't negotiate. This tool changes that.
 
