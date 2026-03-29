@@ -1,61 +1,81 @@
 # NegotiateAI — AI-Powered Salary Negotiation Coach
 
-> **Hackathon Demo v3.0** — Basic Engine (Mock LLM)  
-> Every year, $1M+ is left on the table because people don't negotiate. This tool changes that.
+> Every year, millions in potential earnings are left on the table because people don't negotiate. This tool changes that.
 
 ## What It Does
 
-1. **Market Value Estimation** — Enter your role, location, experience → get P25/Median/P75 salary range
-2. **Negotiation Simulation** — Practice against a simulated hiring manager with real-time coaching
-3. **Script Generator** — Get an exact word-for-word script customized to your profile
+NegotiateAI helps you negotiate your salary with confidence by providing:
+
+1. **Market Value Estimation** — Get P25/Median/P75 salary ranges based on your role, location, and experience
+2. **Negotiation Simulation** — Practice with an AI hiring manager and receive real-time coaching
+3. **Script Generator** — Receive personalized, word-for-word negotiation scripts
+
+---
 
 ## Quick Start
 
 ```bash
-# 1. Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-# 2. Run the app
+# Run the app
 streamlit run app.py
 ```
 
-Open http://localhost:8501 in your browser.
+Open **http://localhost:8501** in your browser.
+
+---
 
 ## Project Structure
 
 ```
 negotiate-ai/
 ├── app.py                # Streamlit UI (main entry point)
-├── salary_engine.py      # Market value estimation engine
-├── negotiation.py        # Negotiation simulation (mock → Gemini)
-├── coach.py              # Real-time coaching layer (rule-based → Gemini)
-├── script.py             # Final script generator (template → Gemini)
+├── salary_engine.py      # Market value estimation
+├── negotiation.py        # AI negotiation simulation
+├── coach.py              # Real-time coaching system
+├── script.py             # Script generator
 ├── data/
 │   └── salary_mock.json  # Salary benchmark data
-├── requirements.txt
-└── README.md
+└── requirements.txt
 ```
 
-## Upgrade Path
+---
 
-| Step | Integration      | Status |
-|------|------------------|--------|
-| 1    | Basic engine     | ✅ Done |
-| 2    | Gemini API       | ✅ Done |
-| 3    | ElevenLabs voice | ✅ Done|
-| 4    | Solana on-chain  | ✅ Done|
-| 5    | MongoDB          | ✅ Done|
+## Features
 
-## Current Version: Basic
+| Feature                  | Status      |
+|--------------------------|-------------|
+| Market value estimation  | ✅ Complete |
+| Gemini API integration   | ✅ Complete |
+| Negotiation simulation   | ✅ Complete |
+| Real-time coaching       | ✅ Complete |
+| Script generation        | ✅ Complete |
+| ElevenLabs voice         | ✅ Complete |
+| Solana blockchain        | ✅ Complete |
+| MongoDB integration      | ✅ Complete |
 
-- **Salary engine**: Static data + location/experience/company multipliers
-- **Negotiation**: Scripted multi-turn responses (realistic but not dynamic)
-- **Coaching**: Rule-based keyword analysis (detects anchoring, hedging, etc.)
-- **Script**: Template-based output with calculated targets
+---
 
-## Next: Gemini Integration
+## Technology Stack
 
-The Gemini upgrade will replace all three AI layers:
-- Dynamic hiring manager roleplay (context-aware, pushback, personality)
-- LLM-powered coaching (semantic analysis, not just keywords)
-- Personalized script generation from full conversation context
+- **Frontend**: Streamlit
+- **AI Engine**: Google Gemini API
+- **Voice**: ElevenLabs API
+- **Blockchain**: Solana
+- **Database**: MongoDB
+
+---
+
+## Vision
+
+**Today**: AI-powered salary negotiation assistant  
+**Tomorrow**: Complete AI career agent for interviews, performance reviews, and promotions
+
+Our mission is to help people get what they deserve.
+
+---
+
+## License
+
+MIT License — Free to use, modify, and distribute
