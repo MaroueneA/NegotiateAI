@@ -1,5 +1,8 @@
 # NegotiateAI: AI-Powered Salary Negotiation Coach
-
+>Let me ask you something. Have you ever gotten a job offer… and just said yes?"
+>Most people do. 73% of job candidates never negotiate their salary. Not because they don't want more
+money — but because they don't know what to say, they're afraid of saying the wrong thing, or they just
+don't know what they're actually worth.
 > Every year, millions in potential earnings are left on the table because people don't negotiate. This tool changes that.
 
 ## What It Does
